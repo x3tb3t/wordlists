@@ -1,0 +1,8 @@
+;id
+;id;
+&& id
+&& id &&
+& id &
+|| id
+%0aid
+%0aid%0a
