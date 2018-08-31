@@ -6,4 +6,3 @@
     Vendor URL : <xsl:value-of select="system-property('xsl:vendor-url')" />
   </xsl:template>
 </xsl:stylesheet>
-
